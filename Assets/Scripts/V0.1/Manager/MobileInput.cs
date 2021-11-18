@@ -8,6 +8,6 @@ using UnityEngine;
         public void GetAxis()
         {
             // Сейчас не отличается от PCUserInputRight!!!! Разобраться в разности платформ!
-            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MouseRight));
+            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MOUSERIGHT));
         }
     }

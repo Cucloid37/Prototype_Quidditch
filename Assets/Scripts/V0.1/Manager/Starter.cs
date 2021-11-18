@@ -10,8 +10,8 @@ public class Starter : MonoBehaviour
     private void Start()
     {
         _controllers = new Controllers();
-        var initialization = new GameInitialization(_data, _canvas);
-        
+        var initialization = new GameInitialization(_data, _controllers, _canvas);
+        _controllers.Initialization();
         
     }
     

@@ -8,6 +8,6 @@ using UnityEngine;
     
         public void GetAxis()
         {
-            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MouseLeft));
+            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MOUSELEFT));
         }
     }

@@ -66,6 +66,9 @@
             _seeker.onClick.AddListener(delegate { _controller.SetType(FlyerType.Seeker); });
             _hunterOne.onClick.AddListener(delegate { _controller.SetType(FlyerType.Hunter); });
             _hunterTwo.onClick.AddListener(delegate { _controller.SetType(FlyerType.Hunter); });
+            _hunterThree.onClick.AddListener(delegate { _controller.SetType(FlyerType.Hunter); });
+            _beaterOne.onClick.AddListener(delegate { ;_controller.SetType(FlyerType.Beater); });
+            _beaterTwo.onClick.AddListener(delegate { ;_controller.SetType(FlyerType.Beater); });
         }
 
         public void Cleanup()
@@ -74,5 +77,8 @@
             _seeker.onClick.RemoveAllListeners();
             _hunterOne.onClick.RemoveAllListeners();
             _hunterTwo.onClick.RemoveAllListeners();
+            _hunterThree.onClick.RemoveAllListeners();
+            _beaterOne.onClick.RemoveAllListeners();
+            _beaterTwo.onClick.RemoveAllListeners();
         }
     }

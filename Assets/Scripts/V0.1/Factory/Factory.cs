@@ -1,6 +1,6 @@
 using UnityEngine;
 
-    public class Factory : MonoBehaviour, IFactory
+    public class Factory : MonoBehaviour, IFactoryInst
     {
         public GameObject CreateFactory(GameObject prefab, Vector3 position)
         {

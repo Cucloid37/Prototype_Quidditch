@@ -7,6 +7,6 @@ using UnityEngine;
         public event Action<float> AxisOnChang = delegate (float f) { };
         public void GetAxis()
         {
-            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MouseRight));
+            AxisOnChang.Invoke(Input.GetAxis(AxisManager.MOUSERIGHT));
         }
     }

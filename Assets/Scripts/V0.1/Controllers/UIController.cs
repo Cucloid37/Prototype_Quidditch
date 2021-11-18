@@ -1,7 +1,10 @@
     using System.Collections.Generic;
+    using UnityEngine;
 
-    internal sealed class UIController : IUIcontroller
+    internal sealed class UIController
     {
+        private GameObject _teamFirst;
+        private GameObject _teamSecond;
         private readonly Data _data;
         private readonly UIFactory _factory;
         private List<IFlyer> _listTeam;
@@ -13,7 +16,7 @@
             _factory = factory;
         }
         
-        public void CreateTeam()
+        public void CreateUITeam()
         {
             _listTeam = new List<IFlyer>(CapacityList);
 
@@ -26,5 +29,9 @@
             controller.Initialization(createUI);
         }
 
+        public void StartBattle()
+        {
+            
+        }
 
     }

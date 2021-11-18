@@ -67,9 +67,10 @@
         
         public void CreateFlyer()
         {
-            var flyerObject = _data.Flyer.GetFlyer(_type);
-            flyerObject.SetModel(_name, _actionPoints, _force, _agility, _magicForce);
-            _listTeam.Add(flyerObject);
+            var flyer = _data.Flyer.GetFlyer(_type);
+            flyer.SetModel(_name, _actionPoints, _force, _agility, _magicForce);
+            // здесь нужна фабрика флайеров, куда передается flyer
+            _listTeam.Add(flyer);
             
             foreach (var t in _listTeam)
             {

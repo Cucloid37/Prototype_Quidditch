@@ -1,15 +1,11 @@
 ﻿using UnityEngine;
 
 
-    internal sealed class InputInitialization : IController
+    internal sealed class InputInitialization : IInitialization
     {
         private IUserInputProxy _userInputLeft;
         private IUserInputProxy _userInputRight;
 
-        public InputInitialization()
-        {
-        }
-        
         /// <summary>
         /// Инициализируем мышь под устройство
         /// </summary>
@@ -17,7 +13,7 @@
         {
             if (Application.platform == RuntimePlatform.Android)
             {
-                _userInputLeft = new MobileInput();
+                _userInputLeft = new MobileInput();             // выяснить как передавать управление с мобильного
                 _userInputRight = new MobileInput();
                 return;
             }
