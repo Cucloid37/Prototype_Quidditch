@@ -9,6 +9,10 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+<<<<<<< Updated upstream
+=======
+/Assets/Scripts/V0.1/*
+>>>>>>> Stashed changes
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

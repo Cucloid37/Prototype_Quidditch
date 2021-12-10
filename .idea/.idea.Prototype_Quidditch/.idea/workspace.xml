@@ -23,11 +23,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/PlayerPrefsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/StreamData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TestDescription.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vq4TQeImt8lrxhKzl6fhyqhCF" />
   <component name="ProjectLevelVcsManager">
@@ -38,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -78,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638831722190</updated>
-      <workItem from="1638831737366" duration="44004000" />
+      <workItem from="1638831737366" duration="47355000" />
     </task>
     <servers />
   </component>
@@ -101,6 +105,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
