@@ -8,18 +8,22 @@ using V2._0.UI;
 
 namespace V2._0
 {
+    
+    
     [CreateAssetMenu(fileName = "UIDescription", menuName = "Description/UIDescription")]
     public class UIDescription : ScriptableObject
     {
-        [SerializeField] private AssetReference canvasReference;
-        
-        [SerializeField] private Dictionary<Button, Action> buttonActions;
+        [SerializeField] private ButtonDescription buttonDescription;
 
-        [SerializeField] private IUserInterfaceModel GetModel => new UIModel(buttonActions);        // todo это костыль
-        
-        public async Task<GameObject> GetCanvasView()
+        [SerializeField] private AssetReference _canvasReference;
+
+        public ButtonDescription ButtonDescription => buttonDescription;
+
+        public async Task<GameObject> GetCanvas()
         {
-            return await Addressables.InstantiateAsync(canvasReference).Task;
+            return await Addressables.InstantiateAsync(_canvasReference).Task;
         }
+        
+        
     }
 }

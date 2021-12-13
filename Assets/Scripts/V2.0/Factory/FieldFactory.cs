@@ -35,7 +35,7 @@ namespace V2._0
                     for (int z = 0; z <= zMax; z++)
                     {
                         _position.Set(x + Size, y + Size, z + Size);
-                        _square = _factory.CreateGameObject(_description.GetView().Result, _position);
+                        _square = _factory.CreateWithPrefab(_description.GetView().Result, _position);
                         _square.name = $"{x}, {y}, {z}";
                         _square.transform.SetParent(parent.transform);
                         _squareList.Add(_square);

@@ -12,10 +12,10 @@ namespace V2._0
         
         public virtual IFlyer CreateFlyer(FlyerType type)
         {
-            _assetReference = descriptions.FlyerDescription.DictAsset[type];
-            GameObject flyer = Create(descriptions.FlyerDescription.GetView(_assetReference));
+            _assetReference = _peaceDescriptions.FlyerDescription.DictAsset[type];
+            GameObject flyer = CreateWithTask(_peaceDescriptions.FlyerDescription.GetView(_assetReference));
             FlyerView view = flyer.AddComponent<FlyerView>();
-            FlyerModel model = descriptions.FlyerDescription.GetModel;
+            FlyerModel model = _peaceDescriptions.FlyerDescription.GetModel;
             Broom broom = new Broom();                              // todo брать Broom и MagicWand из _description
             MagicWand magicWand = new MagicWand();                 //
             IFlyer _presenter = new Flyer();                      // todo это какой-то костыль или норм?

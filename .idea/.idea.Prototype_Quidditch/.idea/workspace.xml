@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e44ad4b-3738-4924-a205-06a2ca56bce8" name="Changes" comment="" />
+    <list default="true" id="4e262d1a-e259-4ea0-b313-4d0364dc8097" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,15 +22,16 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TestDescription.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/PlayerPrefsData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/StreamData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TestDescription.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vq4TQeImt8lrxhKzl6fhyqhCF" />
   <component name="ProjectLevelVcsManager">

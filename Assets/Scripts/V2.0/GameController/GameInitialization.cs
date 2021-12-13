@@ -1,5 +1,6 @@
 using UnityEngine;
 using V2._0.Input;
+using V2._0.UI;
 
 namespace V2._0
 {
@@ -12,9 +13,9 @@ namespace V2._0
         
             var inputInitialization = new InputInitialization();    // todo разобраться с импутом
 
-            IFactory factory = new GameObject("Factory in GI").AddComponent<Factory>();
-            
-            
+            IUserInterfaceFactory factory = new GameObject("Factory in GI").AddComponent<UIFactory>();
+            // мы запускаем PeaceInitialization
+            var peaceInitialization = new PeaceInitialization(factory);
 
 
 
