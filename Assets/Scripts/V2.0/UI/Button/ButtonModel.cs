@@ -7,21 +7,26 @@ namespace V2._0.UI
 
 {
     
-    
     [Serializable]
-    public class ButtonModel
+    public class ButtonModel : IButtonModel
     {
-        // скорее всего наследуется от кого-нибудь
 
-        public AssetReference reference;
-        public Vector3 position;
-        public ButtonType buttonType;
+        public AssetReference reference { get; private set; }
+        public TaskOfButtons buttonsTask { get; private set; }
+
+        [field: NonSerialized]
+        public Vector3 position { get; private set; }
+        
+        public GameObject myObject { get; private set; }
 
         public Button myButton { get; private set; }
 
         public void SetButton(GameObject button)
         {
-            myButton = button.GetComponent<Button>();
+            myObject = button;
+            myButton = myObject.GetComponent<Button>();
+            position = myObject.transform.position;
         }
+        
     }
 }

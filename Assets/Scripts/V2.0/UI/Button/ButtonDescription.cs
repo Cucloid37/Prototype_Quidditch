@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 namespace V2._0.UI
 {
-    public enum ButtonType
+    public enum TaskOfButtons
     {
         Plus,
         Minus,
@@ -18,8 +19,16 @@ namespace V2._0.UI
     public class ButtonDescription : ScriptableObject
     {
         [SerializeField] private List<ButtonModel> _buttonModels;
+        [SerializeField] private List<ButtonToMainModel> _buttonToMains;
 
-        public List<ButtonModel> GetModels => _buttonModels;
+        public List<IButtonModel> GetModels()
+        {
+            var result = new List<IButtonModel>();
+            result.AddRange(_buttonModels);
+            result.AddRange(_buttonToMains);
+
+            return result;
+        }
 
         public async Task<GameObject> GetView(AssetReference buttonReference)
         {

@@ -12,8 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861aabe4eed04fe3b2b6edf55eb129af, type: 3}
   m_Name: ButtonDescription
   m_EditorClassIdentifier: 
-  _buttonReference:
-    m_AssetGUID: 
-    m_SubObjectName: 
-    m_SubObjectType: 
-  _buttonType: 
+  _buttonModels: []

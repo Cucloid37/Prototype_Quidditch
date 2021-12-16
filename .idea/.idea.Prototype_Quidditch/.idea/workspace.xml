@@ -22,16 +22,16 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/PlayerPrefsData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TestDescription.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/PlayerPrefsData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/StreamData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateModel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vq4TQeImt8lrxhKzl6fhyqhCF" />
   <component name="ProjectLevelVcsManager">
@@ -50,7 +50,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diagrams" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
