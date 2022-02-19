@@ -65,6 +65,30 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: bd7962f1fb4270a4e8735479faf716ca
+    m_Address: Assets/Prefab/Prefabs/Flyer Beater.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 831e95516288d294894be54a03f68e63
+    m_Address: Assets/Prefab/Prefabs/Cubub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b27c039fd55dc8a4d98db0c70978f9c8
+    m_Address: Assets/Prefab/Prefabs/UI/Canvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6a7f9042a8f9e9042b6a73f0babfd41f
+    m_Address: Assets/Descriptions/Flyer.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a7a0a511bb35db040879b7273f32a9f0, type: 2}
   m_SchemaSet:

@@ -1,4 +1,5 @@
 using UnityEngine;
+using V2._0.Predicates;
 
 namespace V2._0
 {
@@ -7,22 +8,39 @@ namespace V2._0
     {
         protected FlyerModel _model;
         protected FlyerView _view;
-        protected Broom _broom;
-        protected MagicWand _magicWand;
+        
+        //todo инкапсулировать
+        public IPredicate[] СanIFly { get; set; }
+        
+        public FlyerType Type { get; }
+        public FlyerTeam Team { get; private set; }
 
-        public Flyer(FlyerModel model, FlyerView view, Broom broom, MagicWand magicWand)
+        public void SetTeam(FlyerTeam team)
+        {
+            Team = team;
+        }
+
+        public Flyer(FlyerModel model, FlyerView view, FlyerType type)
         {
             _model = model;
             _view = view;
-            _broom = broom;
-            _magicWand = magicWand;
+            Type = type;
         }
         
         public Flyer() { }
 
-        public virtual void Fly()
+        public virtual void Fly(IContext target, SquareModel squareTarget)
         {
-            
+            foreach (var Is in СanIFly)
+            {
+                if (!Is.IsReady(target))
+                {
+                    Debug.LogWarning($"{_model.myName}, {_model.myType} не может лететь");
+                    return;
+                }
+
+                _model.SetTransform(squareTarget.Transform);
+            }
         }
 
         public virtual void BallAction()
@@ -34,5 +52,6 @@ namespace V2._0
         {
             
         }
+
     }
 }

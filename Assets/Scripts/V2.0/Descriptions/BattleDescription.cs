@@ -1,4 +1,4 @@
-using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
@@ -7,16 +7,39 @@ namespace V2._0
     [CreateAssetMenu(fileName = "BattleDescription", menuName = "Description/BattleDescription")]
     public class BattleDescription : ScriptableObject
     {
-        // понять, как реализовать передачу Description
-        // каждый Description должен включать в себя возможность изменения из программы... разделить ответственность!
-        // Соответственно, StartBattle принимает Descriprions - this - и принимает те объекты, которые поддаются изменению
-        // А именно - Flyer и игровые объекты. Значит,
         // У нас есть разделение Spawn / Pool
         // Есть разделение на объекты FromThePeace / InsideTheBattle
         // И, кажется, они совпадают. Риали
 
-        [SerializeField] private SquareDescription squareDescription;
+        // [SerializeField] private FieldDescription _fieldDescription;
+        // [SerializeField] private AssetReference _fieldReference;
+        [SerializeField] private SquareDescription _squareDescription;
+                                                                                    //todo один из методов нужно будет убрать
+        [SerializeField] private AssetReference _squareReference;
+        
 
-        public SquareDescription Square => squareDescription;
+        // public FieldDescription GetFieldDescription => _fieldDescription;
+        public SquareDescription GetSquareDescription => _squareDescription;
+        
+        public async Task<GameObject> GetSquareView(IBattelDescriptioner reference)
+        {
+            if (reference is ISquare)
+            {
+                return await Addressables.InstantiateAsync(_squareReference).Task;
+            }
+
+            /*if (reference is IField)
+            {
+                return await Addressables.InstantiateAsync(_fieldReference).Task;
+            }*/
+            
+            return null;
+
+        }
+        
+        /*public async Task<GameObject> GetFieldView()
+        {
+            return await Addressables.InstantiateAsync(_fieldReference).Task;
+        }*/
     }
 }

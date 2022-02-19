@@ -1,14 +1,16 @@
+using V2._0.Predicates;
+
 namespace V2._0
 {
     public sealed class HunterPresenter : Flyer
     {
-        public HunterPresenter(FlyerModel model, FlyerView view, Broom broom, MagicWand magicWand) : base(model, view, broom, magicWand)
+        public HunterPresenter(FlyerModel model, FlyerView view, FlyerType type) : base(model, view, type)
         {
         }
 
-        public override void Fly()
+        public override void Fly(IContext target, SquareModel squareTarget)
         {
-            throw new System.NotImplementedException();
+            base.Fly(target, squareTarget);
         }
 
         public override void BallAction()

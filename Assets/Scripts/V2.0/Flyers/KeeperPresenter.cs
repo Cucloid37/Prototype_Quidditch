@@ -2,7 +2,7 @@ namespace V2._0
 {
     public sealed class KeeperPresenter : Flyer
     {
-        public KeeperPresenter(FlyerModel model, FlyerView view, Broom broom, MagicWand magicWand) : base(model, view, broom, magicWand)
+        public KeeperPresenter(FlyerModel model, FlyerView view, FlyerType type) : base(model, view, type)
         {
         }
 

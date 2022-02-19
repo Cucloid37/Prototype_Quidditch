@@ -6,23 +6,17 @@ namespace V2._0
 {
     public class Factory : MonoBehaviour, IFactory
     {
-        protected PeaceDescriptions _peaceDescriptions;
-        protected UIDescription _uiDescription;
-        protected BattleDescription _battleDescription;
+        private int count = 0;
 
-        public void SetDescription(PeaceDescriptions peaceDescriptions, UIDescription uiDescription, BattleDescription battleDescription)
+        public virtual GameObject CreateWithGo(GameObject peacetimeDataTask)
         {
-            _peaceDescriptions = peaceDescriptions;
-            _battleDescription = battleDescription;
-            _uiDescription = uiDescription;
-        }
-
-        public virtual GameObject CreateWithTask(Task<GameObject> peacetimeDataTask)
-        {
-            return Instantiate(peacetimeDataTask.Result);
+            var x = Instantiate(peacetimeDataTask);
+            x.name = count.ToString();
+            count++;
+            return x;
         }
         
-        public virtual GameObject CreateWithPrefab(GameObject prefab, Vector3 position)
+        public virtual GameObject CreateWithPosition(GameObject prefab, Vector3 position)
         {
             return Instantiate(prefab, position, Quaternion.identity);
         }
