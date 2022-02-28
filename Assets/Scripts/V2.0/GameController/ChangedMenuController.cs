@@ -1,33 +1,33 @@
 using System.Collections.Generic;
 using UnityEngine;
+using V2._0.UI;
 
 namespace V2._0
 {
     public class ChangedMenuController : BaseController
     {
         //todo перенести в config или создать статический класс ResourcePath
-        private readonly ResourcePath _viewPath = new ResourcePath {PathResource = "Prefabs/ChangedMenu"};
+        private readonly ResourcePath _viewPath = new ResourcePath {PathResource = "Prefabs/UI/CreateTeam/CreateTeam"};
         private readonly ProfilePlayer _profile;
         private readonly FlyerFactory _factoryFlyer;
+        private readonly Descriptions _descriptions;
         private ChangedMenuView _view;
         private FlyersInitialization _flyersInitialization;
 
-        public ChangedMenuController(ProfilePlayer profile, FlyerFactory factoryFlyer)
+        public ChangedMenuController(ProfilePlayer profile, FlyerFactory factoryFlyer, Descriptions descriptions)
         {
             _profile = profile;
             _factoryFlyer = factoryFlyer;
-            _flyersInitialization = new FlyersInitialization(_factoryFlyer);
+            _descriptions = descriptions;
+            /*_flyersInitialization = new FlyersInitialization(_factoryFlyer);
+            
             _profile.TeamOne.Value = _flyersInitialization.TeamOne;
-            _profile.TeamTwo.Value = _flyersInitialization.TeamTwo;
-            _view = LoadView();
-            _view.Init(StartBattle, ChangeTeam);
-            _profile.TeamOne.SubscribeOnChange(CharactersChange);
-        }
+            _profile.TeamTwo.Value = _flyersInitialization.TeamTwo;*/
 
-        public void CharactersChange(List<IFlyer> flyers)
-        {
-            //todo судя по всему, здесь я могу изменять значения в UI
-            Debug.Log($"Мы изменили значение в {flyers[0].Team}");
+            _view = LoadView();
+            _view.InitButtons(descriptions.ButtonsConfig.ButtonsFlyer, descriptions.ButtonsConfig.ButtonsChange);
+            _view.Init(StartBattle, ChangeTeam, ChangeFlyer, CharactersChange);
+            
         }
 
         private void StartBattle()
@@ -41,6 +41,11 @@ namespace V2._0
             
         }
 
+        private void CharactersChange(ButtonChange button)
+        {
+            //button.DisplayOnUI.GetComponent<>()
+        }
+
         private void ChangeTeam(FlyerTeam team)
         {
             //todo понять, каким методом изменять команду
@@ -51,8 +56,8 @@ namespace V2._0
         {
             var objView = Object.Instantiate(ResourceLoader.LoadPrefab(_viewPath));
             AddGameObjects(objView);
-        
-            return objView.GetComponentInChildren<ChangedMenuView>();
+
+            return objView.GetComponent<ChangedMenuView>();
         }
     }
 }

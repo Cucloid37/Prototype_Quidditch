@@ -7,13 +7,12 @@ namespace V2._0
     {
         private BattleController _battleController;
         private MainMenuController _mainMenuController;
-        private UpdateControllers _updateControllers;
         private ChangedMenuController _changedMenuController;
+        private UpdateControllers _updateControllers;
 
         private GameObject _container = new GameObject("Container");
         private readonly Descriptions _descriptions;
         private readonly FlyerFactory _factoryFlyer;
-        private readonly IFactory _factoryField;
         private readonly GameObject _canvas;    //??
         private readonly ProfilePlayer _profilePlayer;
         private readonly Transform _placeForUi;  //??
@@ -47,16 +46,18 @@ namespace V2._0
         {
             switch (state)
             {
+                case GameState.None:
+                    break;
                 case GameState.MainMenu:
                     _mainMenuController = new MainMenuController(_placeForUi, _profilePlayer);
                     _battleController?.Dispose();
                     break;
                 case GameState.ChangeTeam:
-                    _changedMenuController = new ChangedMenuController(_profilePlayer, _factoryFlyer);
+                    _changedMenuController = new ChangedMenuController(_profilePlayer, _factoryFlyer, _descriptions);
                     _mainMenuController?.Dispose();
                     break;
                 case GameState.Battle:
-                    _battleController = new BattleController(_profilePlayer, _descriptions, _updateControllers, _canvas);
+                    _battleController = new BattleController(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
                     _mainMenuController?.Dispose();
                     break;
                 default:

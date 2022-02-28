@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc658843ecf4303b8c48c29d0649d7e, type: 3}
+  m_Name: Button
+  m_EditorClassIdentifier: 
+  buttonsChange:
+  - {fileID: 1726723819137431662, guid: 3223650dd5a6bb048862e60553a0ecfb, type: 3}
+  - {fileID: 1474115518231236965, guid: b53c844125343b942b05740f24ab2490, type: 3}
+  - {fileID: 8991657121881283610, guid: 1897267aeb863ed4d9d7ba01619200b3, type: 3}
+  - {fileID: 9153347040170714122, guid: 9187682003fddf74d93d22e0f74f99d5, type: 3}
+  - {fileID: 1708590887491973894, guid: 1b950e8736da05042aea1e7c6c853408, type: 3}
+  - {fileID: 4913461774264972904, guid: 2a1a4ffe3baa69d499dda67b71f9aea0, type: 3}
+  buttonsFlyer:
+  - {fileID: 8975656599083399818, guid: acc1dc4db1eee9a4f82ef6151025ac71, type: 3}
+  - {fileID: 765238614858771906, guid: 0c0d7007a6da84846aa57efaf6b4e212, type: 3}
+  - {fileID: 4215874114455024693, guid: fc4dce66ef6decf4f87fc3726f77ca60, type: 3}
+  - {fileID: 2893489808545560574, guid: 9a781439092723b4ab29f43eb9310408, type: 3}
+  - {fileID: 7592670989545789406, guid: 3bf512214a0960347bcd464162afec69, type: 3}
+  - {fileID: 408345245113613164, guid: a0b013fe01cd16d419f634413a0cc3eb, type: 3}
+  - {fileID: 9171133166439114543, guid: b7b2ef78708724249b4f75f6b74f74df, type: 3}

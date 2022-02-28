@@ -14,7 +14,7 @@ namespace V2._0
         {
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
-            _view.Init(StartChangingTeam);
+            _view.Init(StartBattle);
         }
 
         private MainMenuView LoadView(Transform placeForUi)
@@ -25,6 +25,11 @@ namespace V2._0
             return objectView.GetComponent<MainMenuView>();
         }
 
+        private void StartBattle()
+        {
+            _profilePlayer.CurrentState.Value = GameState.Battle;
+        }
+        
         private void StartChangingTeam()
         {
             _profilePlayer.CurrentState.Value = GameState.ChangeTeam;

@@ -20,57 +20,36 @@ namespace V2._0
 
         public GameObject PrefabSquare => prefabSquare;
 
+        //todo вынести в статический класс
         private const float xMax = 10;
         private const float yMax = 7;
         private const float zMax = 16;
-        private const int Size = 1;
+        private const int Size = 2;
 
-        public FieldFactory()
+        private void Start()
         {
-            _viewList = new List<SquareView>();
-            _position = new Vector3();
+            
         }
 
-        private async void Start()
+        public void InitFactory(GameObject prefab)
         {
-            prefabSquare = await _description.GetSquareDescription.GetView();
-            
+            prefabSquare = prefab;
             _viewList = new List<SquareView>();
             _modelList = new List<SquareModel>();
             _position = new Vector3();
-            
-            if (prefabSquare != null)
-            {
-                //todo это можно сделать через SubscriptionProperty
-                _presenter = CreateField();
-            }
         }
-
-        public void SetDescription(Descriptions description)
-        {
-            _description = description;
-        }
-        
-        public FieldPresenter GetPresenter()
-        {
-            return _presenter;
-        }
-        
-        
+   
         public FieldPresenter CreateField()
         {
-            if (prefabSquare == null)
-            {
-                new NullReferenceException("Prefab of Field is null");
-            }
+           //todo вероятно, следует сделать так, чтобы каждая клетка поля знала, кто её соседи
             
             var parent = new GameObject("Field");
             
-            for (int x = 0; x < zMax; x++)
+            for (int x = 0; x < xMax; x++)
             {
-                for (int y = 0; y < xMax; y++)
+                for (int y = 0; y < yMax; y++)
                 {
-                    for (int z = 0; z < yMax; z++)
+                    for (int z = 0; z < zMax; z++)
                     {
                         _position.Set(x + Size, y + Size, z + Size);
                         GameObject _square = CreateWithPosition(prefabSquare, _position);
@@ -81,7 +60,6 @@ namespace V2._0
                         _modelList.Add(new SquareModel(view));
                         _viewList.Add(view);
                         _count++;
-                        Debug.Log($"{_square.GetHashCode()}, {_square.GetInstanceID()}");
                     }
                 }
             }

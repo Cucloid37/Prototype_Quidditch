@@ -38,7 +38,7 @@ namespace V2._0
             for (int i = 0; i < team.Count; i++)
             {
                 team[i]?.SetTeam(teamEnum);
-                Debug.Log($"Создан флайер {team[i]?.Type}, хэшкод {team.GetHashCode()}, {team[i].GetType()}");
+                Debug.Log($"Создан флайер {team[i]?.Type}, хэшкод {team[i]?.GetHashCode()}, {team[i]?.GetType()}");
             }
             
             return team;

@@ -14,10 +14,16 @@ namespace V2._0
         
         public FlyerType Type { get; }
         public FlyerTeam Team { get; private set; }
+        public Coordinates coordinates { get; private set; }
 
         public void SetTeam(FlyerTeam team)
         {
             Team = team;
+        }
+
+        public void SetCoor(Coordinates coor)
+        {
+            coordinates = coor;
         }
 
         public Flyer(FlyerModel model, FlyerView view, FlyerType type)

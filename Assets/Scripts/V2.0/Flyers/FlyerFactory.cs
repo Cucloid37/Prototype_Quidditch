@@ -10,16 +10,16 @@ namespace V2._0
     public class FlyerFactory : IFlyerFactory
     {
         private readonly Factory _factory;
-        private Descriptions _descriptions;
-        private FlyersInitialization _initialization;
+        private readonly Descriptions _descriptions;
 
         private GameObject flyers = new GameObject("Flyers");
         private GameObject referenceBeater;
         private GameObject referenceKeeper;
         private GameObject referenceSeeker;
         private GameObject referenceHunter;
+        private GameObject prefabSquare;
 
-        public FlyersInitialization Initialization => _initialization;
+        public GameObject PrefabSquare => prefabSquare;
 
         public FlyerFactory(Factory factory, Descriptions descriptions)
         {
@@ -34,12 +34,16 @@ namespace V2._0
             referenceKeeper = await _descriptions.GetFlyerDescription.GetView(_descriptions.GetFlyerDescription.PrefabKeeper);
             referenceSeeker = await _descriptions.GetFlyerDescription.GetView(_descriptions.GetFlyerDescription.PrefabSeeker);
 
-            if (referenceBeater != null && referenceHunter != null && referenceKeeper != null && referenceSeeker != null)
+            prefabSquare = await _descriptions.GetSquareDescription.GetView();
+
+            if (referenceBeater != null && referenceHunter != null && referenceKeeper != null && referenceSeeker != null
+            && prefabSquare != null)
             {
                 referenceBeater.SetActive(false);
                 referenceSeeker.SetActive(false);
                 referenceKeeper.SetActive(false);
                 referenceHunter.SetActive(false);
+                prefabSquare.SetActive(false);
             }
             else 
                 Debug.Log("Мы что-то не загрузили");

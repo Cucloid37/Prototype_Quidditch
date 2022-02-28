@@ -4,6 +4,8 @@ namespace V2._0
 {
     public class SquareModel
     {
+        //todo разобраться с моделью (тут явно есть лишнее)
+        
         private SquareView _view;
         public Coordinates MyCoordinates { get; private set; }
         public Vector3 MyPosition { get; private set; }
