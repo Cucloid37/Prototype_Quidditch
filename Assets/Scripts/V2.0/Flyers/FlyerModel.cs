@@ -39,9 +39,10 @@ namespace V2._0
 
         #region region public void Get/Set : Broom, MagicWand, FlyerType, FlyerTeam, FlyerView, Name
 
-        public void GetView(FlyerView view)
+        public void SetView(FlyerView view)
         {
             _view = view;
+            _transform = view.gameObject.transform;
         }
         
         public void SetBroom(Broom broom)
@@ -68,9 +69,9 @@ namespace V2._0
             myName = name;
         }
 
-        public void SetTransform(Transform transform)
+        public void SetTransform(Vector3 position)
         {
-            _transform = transform;
+            _transform.position = position;
             _view.SetTransform(_transform);
         }
 

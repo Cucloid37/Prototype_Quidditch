@@ -5,10 +5,13 @@ namespace V2._0
 {
     public class MainController : BaseController
     {
-        private BattleController _battleController;
+        private BattleInitialization _battleInitialization;
         private MainMenuController _mainMenuController;
         private ChangedMenuController _changedMenuController;
+        private SpawnController _spawnController;
         private UpdateControllers _updateControllers;
+        private MoveManager _moveManager;
+        private MoveController _moveController;
 
         private GameObject _container = new GameObject("Container");
         private readonly Descriptions _descriptions;
@@ -37,7 +40,7 @@ namespace V2._0
         protected override void OnDispose()
         {
             _mainMenuController?.Dispose();
-            _battleController?.Dispose();
+            _battleInitialization?.Dispose();
             _profilePlayer.CurrentState.UnSubscriptionOnChange(OnChangeGameState);
             base.OnDispose();
         }
@@ -50,19 +53,26 @@ namespace V2._0
                     break;
                 case GameState.MainMenu:
                     _mainMenuController = new MainMenuController(_placeForUi, _profilePlayer);
-                    _battleController?.Dispose();
+                    _battleInitialization?.Dispose();
                     break;
                 case GameState.ChangeTeam:
                     _changedMenuController = new ChangedMenuController(_profilePlayer, _factoryFlyer, _descriptions);
                     _mainMenuController?.Dispose();
                     break;
+                case GameState.Spawn:
+                    _battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
+                    _moveManager = new MoveManager(_profilePlayer);
+                    _moveController = new MoveController();
+                    _spawnController = new SpawnController(_moveManager, _profilePlayer, _moveController, _descriptions);
+                    _mainMenuController?.Dispose();
+                    break;
                 case GameState.Battle:
-                    _battleController = new BattleController(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
+                    _battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
                     _mainMenuController?.Dispose();
                     break;
                 default:
                     _mainMenuController?.Dispose();
-                    _battleController?.Dispose();
+                    _battleInitialization?.Dispose();
                     break;
             }
         }

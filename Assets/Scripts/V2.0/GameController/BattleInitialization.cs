@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace V2._0
 {
-    public class BattleController : BaseController
+    public class BattleInitialization : BaseController
     {
         private GameObject factory = new GameObject("Factory");
 
-        public BattleController(ProfilePlayer profilePlayer, Descriptions descriptions, FlyerFactory factoryFlyer, 
+        public BattleInitialization(ProfilePlayer profilePlayer, Descriptions descriptions, FlyerFactory factoryFlyer, 
             UpdateControllers controllers, GameObject canvas)
         {
             
@@ -23,7 +23,7 @@ namespace V2._0
             profilePlayer.TeamOne.Value = _flyersInitialization.TeamOne;
             profilePlayer.TeamTwo.Value = _flyersInitialization.TeamTwo;
 
-            var flyerDeployment = new DeploymentOfFlyers(field, profilePlayer);
+            // var flyerDeployment = new DeploymentOfFlyers(field, profilePlayer);
             
             
             controllers.Add(inputInitialization);

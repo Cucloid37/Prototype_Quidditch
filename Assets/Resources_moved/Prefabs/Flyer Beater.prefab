@@ -106,6 +106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flyer Beater
       objectReference: {fileID: 0}
+    - target: {fileID: 2989006503305332803, guid: 7c8ec715235d3af4aa31f2bbab7b1cdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9009851426644087557, guid: 7c8ec715235d3af4aa31f2bbab7b1cdf, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -27,7 +27,7 @@ namespace V2._0
 
         private void StartBattle()
         {
-            _profilePlayer.CurrentState.Value = GameState.Battle;
+            _profilePlayer.CurrentState.Value = GameState.Spawn;
         }
         
         private void StartChangingTeam()

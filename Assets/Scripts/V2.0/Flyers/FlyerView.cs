@@ -7,7 +7,7 @@ namespace V2._0
     {
         private Transform _transform;
 
-        private void Awake()
+        private void Start()
         {
             _transform = gameObject.transform;
         }

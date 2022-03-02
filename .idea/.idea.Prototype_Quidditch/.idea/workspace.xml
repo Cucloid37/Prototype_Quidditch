@@ -5,111 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e262d1a-e259-4ea0-b313-4d0364dc8097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Button.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Button.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ActionPoints.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ActionPoints.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Button.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Button.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Keeper.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Keeper.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Seeker.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Seeker.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusAgility.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusAgility.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusForce.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusForce.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusMagic.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusMagic.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusAgility.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusAgility.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusForce.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusForce.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusMagic.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusMagic.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ChangeTeam.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ChangeTeam.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CharacteristicPoints.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CharacteristicPoints.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountAgility.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountAgility.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountForce.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountForce.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountMagic.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountMagic.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamOne.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamOne.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamTwo.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamTwo.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CreateTeam.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CreateTeam.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Name.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Name.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Main Camera.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Main Camera.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/UIStart.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/UIStart.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/DeploymentOfFlyers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/DeploymentOfFlyers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/RayCastManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/RayCastManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonChange.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonChange.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ChangeTeamSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ChangeTeamSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/AllDescriptions.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Descriptions/AllDescriptions.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/CreateTeam.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/CreateTeam.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/Main Camera.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/Main Camera.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/UIStart.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/UI/UIStart.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangedMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangedMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Cubub.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Cubub.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Beater.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Beater.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Keeper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Keeper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Seeker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Seeker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/UI/CreateTeam.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/UI/CreateTeam.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/V2.0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/V2.0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/Descriptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/Descriptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/FlyersInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/FlyersInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/HunterPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/HunterPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ProfilePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ProfilePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TeamsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TeamsController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SubscriptionProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SubscriptionProperty.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/MainUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +98,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/cc/5bfe873b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/e2/ce05efac/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FlyerBoll/Assets/Scripts/MVC/Coordinates.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9e/b45c010f/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
@@ -264,7 +196,7 @@
       <workItem from="1644169170745" duration="2451000" />
       <workItem from="1644375507329" duration="26958000" />
       <workItem from="1645197889173" duration="37736000" />
-      <workItem from="1645872810013" duration="14277000" />
+      <workItem from="1645872810013" duration="30729000" />
     </task>
     <servers />
   </component>
@@ -357,32 +289,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs</url>
-          <line>11</line>
-          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\GameController\BattleController.cs" initialLine="11" containingFunctionPresentation="constructor 'BattleController'">
-            <startOffsets>
-              <option value="360" />
-            </startOffsets>
-            <endOffsets>
-              <option value="361" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerFactory.cs</url>
-          <line>49</line>
-          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\Flyers\FlyerFactory.cs" initialLine="49" containingFunctionPresentation="method 'LoadView'">
-            <startOffsets>
-              <option value="1930" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1931" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -28,6 +28,7 @@ namespace V2._0
         None,
         MainMenu,
         ChangeTeam,
+        Spawn,
         Battle
     }
 }

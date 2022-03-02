@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using V2._0.UI;
 
 namespace V2._0
@@ -8,9 +9,14 @@ namespace V2._0
     [CreateAssetMenu(fileName = "Button", menuName = "Descriptions/ButtonConfig")]
     public class ButtonConfig : ScriptableObject
     {
+        [SerializeField] private List<ButtonFlyerForBattle> _buttonsFlyerForSpawn;
+        [SerializeField] private GameObject _canvasUIForBattle;
+        
         [SerializeField] private List<ButtonChange> buttonsChange;
         [SerializeField] private List<ButtonFlyer> buttonsFlyer;
 
+        public List<ButtonFlyerForBattle> buttonsFlyerForBattles => _buttonsFlyerForSpawn;
+        public GameObject UIForBattle => _canvasUIForBattle;
         public List<ButtonChange> ButtonsChange => buttonsChange;
         public List<ButtonFlyer> ButtonsFlyer => buttonsFlyer;
 

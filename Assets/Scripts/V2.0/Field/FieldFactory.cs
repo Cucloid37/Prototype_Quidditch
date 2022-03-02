@@ -26,11 +26,6 @@ namespace V2._0
         private const float zMax = 16;
         private const int Size = 2;
 
-        private void Start()
-        {
-            
-        }
-
         public void InitFactory(GameObject prefab)
         {
             prefabSquare = prefab;
@@ -41,7 +36,8 @@ namespace V2._0
    
         public FieldPresenter CreateField()
         {
-           //todo вероятно, следует сделать так, чтобы каждая клетка поля знала, кто её соседи
+           //todo вероятно, следует сделать так, чтобы каждая клетка поля знала, кто её соседи? Или, во всяком случае,
+           //знала направления движения (прямо, наискосок, верх-вниз...). Хотя логичнее звучит, если это знает не клетка
             
             var parent = new GameObject("Field");
             
@@ -59,7 +55,12 @@ namespace V2._0
                         view.SetCoordinates(x, y, z);
                         _modelList.Add(new SquareModel(view));
                         _viewList.Add(view);
+                        view.gameObject.SetActive(true);
                         _count++;
+                        if (_count % 2 == 0)
+                        {
+                            view.SetColor(Color.cyan);
+                        }
                     }
                 }
             }

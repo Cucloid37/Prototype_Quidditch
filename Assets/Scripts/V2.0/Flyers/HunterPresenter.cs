@@ -1,3 +1,4 @@
+using UnityEngine;
 using V2._0.Predicates;
 
 namespace V2._0
@@ -8,9 +9,9 @@ namespace V2._0
         {
         }
 
-        public override void Fly(IContext target, SquareModel squareTarget)
+        public override void Fly(Transform target)
         {
-            base.Fly(target, squareTarget);
+            
         }
 
         public override void BallAction()

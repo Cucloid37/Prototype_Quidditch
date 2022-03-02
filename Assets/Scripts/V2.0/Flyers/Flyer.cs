@@ -4,18 +4,27 @@ using V2._0.Predicates;
 namespace V2._0
 {
     
-    public class Flyer : IFlyer
+    public class Flyer : IFlyer 
     {
         protected FlyerModel _model;
         protected FlyerView _view;
-        
-        //todo инкапсулировать
-        public IPredicate[] СanIFly { get; set; }
-        
+
+        public ICanMove IsCanMove { get; private set; }
         public FlyerType Type { get; }
         public FlyerTeam Team { get; private set; }
         public Coordinates coordinates { get; private set; }
 
+
+        public void SetCanMoveTeam(bool target)
+        {
+            IsCanMove.IsActiveTeam = target;
+        }
+
+        public void SetSelectedFlyer(bool target)
+        {
+            IsCanMove.IsSelectedFlyer = target;
+        }
+        
         public void SetTeam(FlyerTeam team)
         {
             Team = team;
@@ -24,6 +33,7 @@ namespace V2._0
         public void SetCoor(Coordinates coor)
         {
             coordinates = coor;
+            _model.SetTransform((Vector3)coordinates);
         }
 
         public Flyer(FlyerModel model, FlyerView view, FlyerType type)
@@ -35,18 +45,11 @@ namespace V2._0
         
         public Flyer() { }
 
-        public virtual void Fly(IContext target, SquareModel squareTarget)
+        
+        
+        public virtual void Fly(Transform target)
         {
-            foreach (var Is in СanIFly)
-            {
-                if (!Is.IsReady(target))
-                {
-                    Debug.LogWarning($"{_model.myName}, {_model.myType} не может лететь");
-                    return;
-                }
-
-                _model.SetTransform(squareTarget.Transform);
-            }
+            _view.transform.position = target.position;
         }
 
         public virtual void BallAction()

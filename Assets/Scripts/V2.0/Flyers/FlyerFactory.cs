@@ -89,7 +89,7 @@ namespace V2._0
                     throw new ArgumentOutOfRangeException(nameof(type), type, null);
             }
             
-            
+            model.SetView(go.GetComponent<FlyerView>());
             go.gameObject.SetActive(true);
             go.transform.SetParent(flyers.transform);
             
