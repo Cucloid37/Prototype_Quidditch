@@ -8,6 +8,11 @@ namespace V2._0
         private SpawnController _spawnController;
         private GameObject factory = new GameObject("Factory");
 
+        private const int OneRing = 765;
+        private const int TwoRing = 476;
+        private const int TreeRing = 1003;
+        
+
         public BattleInitialization(ProfilePlayer profilePlayer, Descriptions descriptions, FlyerFactory factoryFlyer, 
             UpdateControllers controllers, Transform canvas, GameObject camera)
         {
@@ -20,9 +25,9 @@ namespace V2._0
             var field = fieldFactory.CreateField();
             Transform[] fields = 
             {
-                field.Views[765].Position,
-                field.Views[476].Position,
-                field.Views[1003].Position,
+                field.Views[OneRing].Position,
+                field.Views[TwoRing].Position,
+                field.Views[TreeRing].Position,
                 field.Views[781].Position,
                 field.Views[1036].Position,
                 field.Views[475].Position

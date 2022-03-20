@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Object;
 
 namespace V2._0
 {
@@ -9,13 +10,14 @@ namespace V2._0
         private readonly GameObject _prefab;
 
         private List<GameObject> goRing;
-        private List<Ring> rings;
+        private List<RingView> rings;
 
         public RingFactory(Transform[] positions, GameObject prefab)
         {
             _positionRings = positions;
             _prefab = prefab;
-            goRing = new List<GameObject>();
+            goRing = new List<GameObject>(6);
+            rings = new List<GameObject>(6);
             CreateRing();
         }
 
@@ -23,17 +25,18 @@ namespace V2._0
         {
             for (int i = 0; i < _positionRings.Length; i++)
             {
-                goRing[i] = Object.Instantiate(_prefab, _positionRings[i].position, Quaternion.identity);
-                var view = goRing[i].AddComponent<RingView>();
+                var go = Object.Instantiate(_prefab, _positionRings[i].position, Quaternion.identity);
+                var view = go.AddComponent<RingView>();
+                if(i < 3)
+                {
+                    view.SetTeam(FlyerTeam.One);
+                } else
+                {
+                    view.SetTeam(FlyerTeam.Two);
+                }
                 
-                if (i < 3)                                      // а почему бы и нет? ))) Наверное, потому что очень легко по ошибке наруить порядок и псда
-                {
-                    rings[i] = new Ring(FlyerTeam.One, view);
-                }
-                else
-                {
-                    rings[i] = new Ring(FlyerTeam.Two, view);
-                }
+                goRing.Add(go);
+                rings.Add(view);
             }
 
             
