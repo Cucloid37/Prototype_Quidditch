@@ -59,5 +59,10 @@ namespace V2._0
 
             return objView.GetComponent<ChangedMenuView>();
         }
+
+        protected override void OnDispose()
+        {
+            Object.Destroy(_view);
+        }
     }
 }

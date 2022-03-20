@@ -9,7 +9,8 @@ namespace V2._0
         FlyerType Type { get; }
         FlyerTeam Team { get; }
         Coordinates coordinates { get; }
-        ICanMove IsCanMove { get; }
+        CanMove IsCanMove { get; }
+        FlyerView View { get; }
         void SetTeam(FlyerTeam team);
         void SetCoor(Coordinates coor);
         void Fly(Transform target);

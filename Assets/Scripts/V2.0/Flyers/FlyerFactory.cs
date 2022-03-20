@@ -7,19 +7,22 @@ namespace V2._0
 {
     
     
-    public class FlyerFactory : IFlyerFactory
+    public sealed class FlyerFactory : IFlyerFactory, IDisposable
     {
         private readonly Factory _factory;
         private readonly Descriptions _descriptions;
-
-        private GameObject flyers = new GameObject("Flyers");
+        private readonly GameObject flyers = new GameObject("Flyers");
+        
         private GameObject referenceBeater;
         private GameObject referenceKeeper;
         private GameObject referenceSeeker;
         private GameObject referenceHunter;
         private GameObject prefabSquare;
+        private GameObject prefabRing;
 
+        public SubscriptionProperty<bool> IsAllLoad;
         public GameObject PrefabSquare => prefabSquare;
+        public GameObject PrefabRing => prefabRing;
 
         public FlyerFactory(Factory factory, Descriptions descriptions)
         {
@@ -34,22 +37,25 @@ namespace V2._0
             referenceKeeper = await _descriptions.GetFlyerDescription.GetView(_descriptions.GetFlyerDescription.PrefabKeeper);
             referenceSeeker = await _descriptions.GetFlyerDescription.GetView(_descriptions.GetFlyerDescription.PrefabSeeker);
 
-            prefabSquare = await _descriptions.GetSquareDescription.GetView();
+            prefabSquare = await _descriptions.SquareDescription.GetView();
+            prefabRing = await _descriptions.RingDescription.GetView();
 
             if (referenceBeater != null && referenceHunter != null && referenceKeeper != null && referenceSeeker != null
             && prefabSquare != null)
             {
-                referenceBeater.SetActive(false);
+                /*referenceBeater.SetActive(false);
                 referenceSeeker.SetActive(false);
                 referenceKeeper.SetActive(false);
                 referenceHunter.SetActive(false);
-                prefabSquare.SetActive(false);
+                prefabSquare.SetActive(false);*/
+
+                // IsAllLoad.Value = true;
             }
             else 
-                Debug.Log("Мы что-то не загрузили");
+                Debug.LogError("Мы что-то не загрузили");
         }
 
-        public virtual IFlyer CreateFlyer(FlyerType type)
+        public IFlyer CreateFlyer(FlyerType type)
         {
             if (referenceBeater == null || referenceHunter == null || referenceKeeper == null || referenceSeeker == null)
             {
@@ -96,5 +102,13 @@ namespace V2._0
             return _presenter;
         }
 
+        public void Dispose()
+        {
+            referenceBeater.SetActive(true);
+            referenceSeeker.SetActive(true);
+            referenceKeeper.SetActive(true);
+            referenceHunter.SetActive(true);
+            prefabSquare.SetActive(true);
+        }
     }
 }

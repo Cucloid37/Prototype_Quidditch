@@ -14,6 +14,7 @@ namespace V2._0
         private MoveController _moveController;
 
         private GameObject _container = new GameObject("Container");
+        private GameObject _camera;
         private readonly Descriptions _descriptions;
         private readonly FlyerFactory _factoryFlyer;
         private readonly GameObject _canvas;    //??
@@ -22,17 +23,18 @@ namespace V2._0
         
         
         public MainController(ProfilePlayer profilePlayer, Descriptions descriptions,
-            UpdateControllers updateControllers, GameObject canvas)
+            UpdateControllers updateControllers, GameObject canvas, GameObject camera)
         {
             _profilePlayer = profilePlayer;
             _placeForUi = canvas.transform;
             _descriptions = descriptions;
             _canvas = canvas;
+            _camera = camera;
             _updateControllers = updateControllers;
             var factory = _container.AddComponent<Factory>();
             _factoryFlyer = new FlyerFactory(factory, descriptions);
             _factoryFlyer.LoadView();
-            
+
             profilePlayer.CurrentState.SubscribeOnChange(OnChangeGameState);
             OnChangeGameState(_profilePlayer.CurrentState.Value);
         }
@@ -60,14 +62,14 @@ namespace V2._0
                     _mainMenuController?.Dispose();
                     break;
                 case GameState.Spawn:
-                    _battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
-                    _moveManager = new MoveManager(_profilePlayer);
-                    _moveController = new MoveController();
-                    _spawnController = new SpawnController(_moveManager, _profilePlayer, _moveController, _descriptions);
+                    _battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _placeForUi, _camera);
+                    //_moveManager = new MoveManager(_profilePlayer);
+                    //_moveController = new MoveController();
+                    //_spawnController = new SpawnController(_moveManager, _profilePlayer, _moveController, _descriptions);
                     _mainMenuController?.Dispose();
                     break;
                 case GameState.Battle:
-                    _battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
+                    //_battleInitialization = new BattleInitialization(_profilePlayer, _descriptions, _factoryFlyer, _updateControllers, _canvas);
                     _mainMenuController?.Dispose();
                     break;
                 default:

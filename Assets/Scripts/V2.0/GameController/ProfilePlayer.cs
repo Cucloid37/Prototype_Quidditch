@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace V2._0
 {
@@ -7,10 +8,15 @@ namespace V2._0
         public SubscriptionProperty<GameState> CurrentState { get; }
         public SubscriptionProperty<List<IFlyer>> TeamOne { get; }
         public SubscriptionProperty<List<IFlyer>> TeamTwo { get; }
+        public SubscriptionProperty<RayCastManager> RayCast { get; }
 
         public ProfilePlayer()
         {
-            CurrentState = new SubscriptionProperty<GameState>();
+            CurrentState = new SubscriptionProperty<GameState>()
+            {
+                Value = GameState.MainMenu
+            };
+            
             TeamOne = new SubscriptionProperty<List<IFlyer>>()
             {
                 Value = new List<IFlyer>()
@@ -19,10 +25,17 @@ namespace V2._0
             {
                 Value = new List<IFlyer>()
             };
-            CurrentState.Value = GameState.MainMenu;
+            
+            RayCast = new SubscriptionProperty<RayCastManager>()
+            {
+                Value = new RayCastManager()
+            };
+
+            RayCast.Value.SetHitInfo();
         }
     }
 
+    //todo вынести в отдельное место все enum и прочие определения
     public enum GameState
     {
         None,

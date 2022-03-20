@@ -5,16 +5,22 @@ using UnityEngine.UI;
 
 namespace V2._0.UI
 {
-    public class ButtonFlyerForBattle : MonoBehaviour
+    public class ButtonFlyerForBattle : MonoBehaviour, IDisposable
     {
         [SerializeField] private Button _button;
         [SerializeField] private int _flyerIndex;
 
-        
-        public void Init(UnityAction selectFlyer)
+        public Button button => _button; 
+        public int FlyerIndex => _flyerIndex;
+
+        public void Init(UnityAction<int> selectFlyer)
         {
-            _button = gameObject.GetComponent<Button>();
-            _button.onClick.AddListener(selectFlyer);
+            _button.onClick.AddListener(delegate { selectFlyer(_flyerIndex); });
+        }
+
+        public void Dispose()
+        { 
+            _button.onClick.RemoveAllListeners();
         }
     }
 }

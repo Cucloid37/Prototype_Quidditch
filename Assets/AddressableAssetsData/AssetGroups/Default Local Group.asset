@@ -17,74 +17,68 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 98b04476ccf68844fb9e140a715e26af
   m_SerializeEntries:
-  - m_GUID: f7cef38719990c948b3f2efe27a45700
-    m_Address: Prefabs/UI/CreateTeam
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 545ff8f3c4680ee4aa066a5126e296af
-    m_Address: Prefabs/UI/UIStart
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 9748746841211c34e8026640519d9ede
-    m_Address: Prefabs/UI/Main Camera
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 0c025a90737805a468d77335595037e5
-    m_Address: Prefabs/Flyer Beater
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 7c8ec715235d3af4aa31f2bbab7b1cdf
+  - m_GUID: adabb25775838f248bf2abc142c7d10a
     m_Address: Prefabs/Flyer Hunter
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 99d7b8ad68e6a5542b25da09b3ab03ad
-    m_Address: Prefabs/Flyer Keeper
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: e4e481740f66f7843b3a656f9fd6b83f
-    m_Address: Prefabs/Flyer Seeker
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: b1b8e1963cf90c44b9e4086b9c2bb577
-    m_Address: Prefabs/Cubub
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: bd7962f1fb4270a4e8735479faf716ca
-    m_Address: Assets/Prefab/Prefabs/Flyer Beater.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 831e95516288d294894be54a03f68e63
-    m_Address: Assets/Prefab/Prefabs/Cubub.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: b27c039fd55dc8a4d98db0c70978f9c8
-    m_Address: Assets/Prefab/Prefabs/UI/Canvas.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 6a7f9042a8f9e9042b6a73f0babfd41f
     m_Address: Assets/Descriptions/Flyer.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 831e95516288d294894be54a03f68e63
+    m_Address: Prefabs/Cubub
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7c8ec715235d3af4aa31f2bbab7b1cdf
+    m_Address: Assets/Resources_moved/Prefabs/Flyer Hunter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 99d7b8ad68e6a5542b25da09b3ab03ad
+    m_Address: Assets/Resources_moved/Prefabs/Flyer Keeper.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e4e481740f66f7843b3a656f9fd6b83f
+    m_Address: Assets/Resources_moved/Prefabs/Flyer Seeker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0c025a90737805a468d77335595037e5
+    m_Address: Assets/Resources_moved/Prefabs/Flyer Beater.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b1b8e1963cf90c44b9e4086b9c2bb577
+    m_Address: Assets/Resources_moved/Prefabs/Cubub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ebde33a3c8722b942acd1f5b6690fdfa
+    m_Address: Assets/Descriptions/SquareDescription.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4bf3ea96e8e0a7c42b464f959264e08f
+    m_Address: Assets/Descriptions/Ring.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a380c931b00fd024da48319c761cb400
+    m_Address: Assets/Resources_moved/Prefabs/Ring.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

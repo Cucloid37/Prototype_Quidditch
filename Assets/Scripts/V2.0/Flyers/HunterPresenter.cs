@@ -9,11 +9,6 @@ namespace V2._0
         {
         }
 
-        public override void Fly(Transform target)
-        {
-            
-        }
-
         public override void BallAction()
         {
             throw new System.NotImplementedException();

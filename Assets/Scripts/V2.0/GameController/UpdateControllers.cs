@@ -62,10 +62,14 @@ namespace V2._0
 
         public void LateExecute(float deltaTime)
         {
-            for (int index = 0; index < _lateExecutes.Count; index++)
+            if (_lateExecutes.Count > 0)
             {
-                _lateExecutes[index].LateExecute(deltaTime);
+                for (int index = 0; index < _lateExecutes.Count; index++)
+                {
+                    _lateExecutes[index].LateExecute(deltaTime);
+                }
             }
+            
         }
         
         public void Cleanup()

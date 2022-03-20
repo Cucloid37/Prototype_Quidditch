@@ -9,13 +9,18 @@ namespace V2._0
         private Collider _colider;
 
         private Coordinates _myCoordinates;
-        private Color _color;
+        private Renderer _render;
 
         public Coordinates ViewCoor => _myCoordinates;
+        public Transform Position => _position;
 
         private void Start()
         {
-            _position = gameObject.GetComponent<Transform>();
+            if (_position == null)
+            {
+                _position = gameObject.GetComponent<Transform>();
+            }
+            
         }
 
         public Transform GetPosition()
@@ -25,16 +30,15 @@ namespace V2._0
 
         public void SetColor(Color color)
         {
-            _color = gameObject.GetComponentInChildren<Renderer>().material.color;
-            Debug.Log(_color);
-            _color = color;
-            Debug.LogWarning(_color);
+            _render = gameObject.GetComponentInChildren<Renderer>();
+            _render.material.color = color;
+            Debug.LogWarning(_render.material.color);
         }
 
-        public Coordinates SetCoordinates(int x, int y, int z)
+        public void SetCoordinates(int x, int y, int z)
         {
             _myCoordinates = new Coordinates(x, y, z);
-            return _myCoordinates;
+            _position = gameObject.GetComponent<Transform>();
         }
 
         private void OnCollisionEnter(Collision other)

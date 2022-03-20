@@ -8,7 +8,7 @@ namespace V2._0
         //todo много дублирования кода, it is not good
         public void GetKeyForward(InputKeysData _inputKeysData, Action action)
         {
-            if (Input.GetKey(_inputKeysData.Forward)) action?.Invoke();
+            if (Input.GetKeyDown(_inputKeysData.Forward)) action?.Invoke();
         }
 
         public void GetKeyBack(InputKeysData _inputKeysData, Action action)
@@ -27,7 +27,10 @@ namespace V2._0
 
         public void GetMouseRight(Action action)
         {
-            if(Input.GetMouseButtonDown(0)) action?.Invoke();
+            if (Input.GetMouseButtonDown(0))
+            {
+                action?.Invoke();
+            }
         }
     }
 }

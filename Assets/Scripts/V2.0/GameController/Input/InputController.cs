@@ -32,5 +32,6 @@ namespace V2._0
             _inputKeys.GetKeyLeft(_inputKeysData, OnClickButtonLeft);
             _inputKeys.GetMouseRight(OnClickMouseLeft);
         }
+        
     }
 }

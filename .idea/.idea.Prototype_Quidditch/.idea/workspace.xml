@@ -5,42 +5,305 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e262d1a-e259-4ea0-b313-4d0364dc8097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ChangeTeamSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ChangeTeamSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Car.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Car.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Ring.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Ring.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Square.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Descriptions/Square.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/FieldMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/FieldMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/CannonBomb.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/CannonBomb.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/Car.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/Car.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/ChangedMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/ChangedMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/StickControl.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/StickControl.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ActionPoints.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ActionPoints.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Beater_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Beater_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Beater_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Beater_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Keeper.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Keeper.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Seeker.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonFlyers/Seeker.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusAgility.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusAgility.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusForce.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusForce.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusMagic.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonMinusMagic.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusAgility.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusAgility.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusForce.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusForce.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusMagic.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ButtonPlusMagic.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ChangeTeam.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/ChangeTeam.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/CharacteristicPoints.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/CharacteristicPoints.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountAgility.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountAgility.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountForce.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountForce.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountMagic.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/CountMagic.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/TeamOne.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/TeamOne.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/TeamTwo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Count/TeamTwo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/CreateTeam.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/CreateTeam.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Name.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/CreateTeam/Name.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/Panel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/UIStart.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/UI/UIStart.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/endlessMove.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/endlessMove.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/mainMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs_out/mainMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonTeam.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonTeam/Button (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonTeam/Button (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonTeam/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonTeam/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (2).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (2).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (3).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (3).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (4).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (4).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (5).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (5).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (6).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button (6).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsFlyer/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (2).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (2).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (3).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (3).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (4).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (4).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (5).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (5).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (6).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button (6).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/ButtonsLayer/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/New Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/New Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/UI_InsideBattle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/UI/UI_InsideBattle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Ring.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Ring.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestMonobeh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestMonobeh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/CarDescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/CarDescription.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ReactiveValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ReactiveValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ResourceLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ResourceLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/SubscriptionProperty.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/SubscriptionProperty.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/Ring.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/Ring.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/Extensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourcePath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourcePath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonLayerForBattle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonLayerForBattle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonTeamForBattle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonTeamForBattle.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/AllDescriptions.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Descriptions/AllDescriptions.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/Button.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Descriptions/Button.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/SquareDescription.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/SquareDescription.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Materials/FieldMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Materials/FieldMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Cubub.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Cubub.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Beater.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Beater.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Hunter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Hunter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Keeper.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Keeper.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Seeker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Prefabs/Flyer Seeker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/CannonBomb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/CannonBomb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Car.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Car.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangedMenu.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ChangedMenu.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/StickControl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/StickControl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ActionPoints.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ActionPoints.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Beater_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Hunter_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Keeper.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Keeper.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Seeker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonFlyers/Seeker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusAgility.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusAgility.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusForce.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusForce.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusMagic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonMinusMagic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusAgility.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusAgility.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusForce.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusForce.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusMagic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ButtonPlusMagic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ChangeTeam.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/ChangeTeam.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CharacteristicPoints.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CharacteristicPoints.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountAgility.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountAgility.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountForce.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountForce.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountMagic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/CountMagic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamOne.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamOne.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamTwo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Count/TeamTwo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CreateTeam.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/CreateTeam.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Name.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/CreateTeam/Name.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/UIStart.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/UIStart.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/endlessMove.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/endlessMove.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/mainMenu.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Cubub.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Cubub.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Beater.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Beater.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Keeper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Keeper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Seeker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Seeker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ButtonConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/V2.0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/V2.0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/DeploymentOfFlyers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/DeploymentOfFlyers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/BattleDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/BattleDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/Descriptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/Descriptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/SquareDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ObjectDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/SquareDescription.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ObjectDescription.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Extensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Extensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldDescription.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/FieldPresenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/SquareView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/HunterPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/HunterPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/IFlyerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/IFlyerModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/FlyersInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyersInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/FlyersInitialization.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyersInitialization.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/KeysManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/KeysManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ProfilePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ProfilePlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TeamsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/TeamsController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/UpdateControllers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/UpdateControllers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/ICanMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/ResourceLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/ResourceLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/ResourcePath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/ResourcePath.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SubscriptionProperty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SubscriptionProperty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/MoveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/RayCastManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/RayCastManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/ButtonFlyerForBattle.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,76 +324,114 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/96/1d685616/ParamsArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/06/2c759cc2/AwaitTaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/59/824dcbfb/Environment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/d1/994e5574/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/bb/d533cc9c/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/6ddf8eac3856492ab1b8cf42618915cc28000/a7/42eca9a1/02000032.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/a5/10f48cf5/02000225.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/56/0f68a861/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/cafb29d5233847fbb4edcf8d7c32b1e3299c90/ec/a8e264b2/0200048A.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/e4/075cf87c/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/80/34ba54e0/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/e7/51aa36d2/Display.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/1e/a647ede3/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ddf8eac3856492ab1b8cf42618915cc28000/60/d800cdb1/GUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ed/8159d2b7/AsyncVoidMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3081d2bcbc4348779c37880b87cdb6a175b000/1f/c750f256/EditorCompilationInterface.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/58/bca28497/SynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ce/0714dbb5/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/cafb29d5233847fbb4edcf8d7c32b1e3299c90/d3/87ee52a6/020004A6.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/__unity/_c#/Algorithmi/Algorithmi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1fd6bc3af931450b977286a218b046fbc4e00/a7/f50223ad/ClickEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/be/e4786707/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/95/5ad3171a/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UIController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0fdaf67e8e744beea25e77915c19f81b59600/06/5c56fb3b/RetainedMode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/88/6e60f803/Debug.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/f5/13d31d23/Logger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a8e296dc7c7b4e92800d9e996ed99e156600/94/a70d4b3a/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/__unity/another/UserInterface __ вероятно, нужно __/UICreateModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/0c/0f945f37/DebugLogHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/Descriptions/ObjectDescription.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/54/fb3277ec/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/c1/df251aea/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/b9/c196bef2/StackTraceUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/f0/04fa451f/StackTrace.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b3/748c0956/Locale.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/2a/4b9a3fff/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Sweedich/Assets/Scripts/UI/WaitLogic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/cc/5bfe873b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/e2/ce05efac/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../FlyerBoll/Assets/Scripts/MVC/Coordinates.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9e/b45c010f/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b7/c5fa5ab7/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/c6/18d3fd67/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Sweedich/Assets/Scripts/Control/GameObjectManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ca/ad3754b9/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/ResourceManager/ResourceProviders/IInstanceProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/f6/086fecc6/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/ISaveLoadData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/8a/eebcaa48/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/PlayerPrefsData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/bc/5725e559/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/6d/1f4f3fff/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Sweedich/Assets/Scripts/SquareLogic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/83/b63bdab4/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/V2.0/SaveData/StreamData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/be/7ac03ba6/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/ResourceManager/ResourceProviders/AssetDatabaseProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d3a4cbacdae45b384e0e80b376938e13600/e0/e47ef34b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b5/97301032/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/00/2b25a62c/ThreadPoolWorkQueue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8d3a4cbacdae45b384e0e80b376938e13600/cb/8e774691/02000007.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/cafb29d5233847fbb4edcf8d7c32b1e3299c90/5e/1b8f0f2a/0200048B.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/59/824dcbfb/Environment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/10/1b3b67dd/EqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/d1/994e5574/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5b/f228a27c/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/bb/d533cc9c/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/1a/d0291076/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/44/bd9cb654/02000137.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9a/d91c074c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/e7/51aa36d2/Display.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/d5/9ec1cb43/Enum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/3d/287269b0/020001CC.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/695d1cc93cca45069c528c15c9fdd7493e2800/53/7e93a4b5/02000156.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/00/02fefa1b/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ed/8159d2b7/AsyncVoidMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/58/bca28497/SynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ce/0714dbb5/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/695d1cc93cca45069c528c15c9fdd7493e2800/de/0ab3252d/02000A58.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1fd6bc3af931450b977286a218b046fbc4e00/a7/f50223ad/ClickEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/be/e4786707/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/88/6e60f803/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/38/90c96d2b/020000F6.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/f5/13d31d23/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/aa976c2104104b7ca9e1785715722c9d29fa00/20/706d4873/020004B5.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/cafb29d5233847fbb4edcf8d7c32b1e3299c90/73/bdd5d05c/02000039.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/0c/0f945f37/DebugLogHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/b9/c196bef2/StackTraceUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/aa976c2104104b7ca9e1785715722c9d29fa00/71/5ab3d03f/LinkedList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/a571e14d69cb4b5988aa9b44a32b80071a000/2a/c2a86755/02000010pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/f0/04fa451f/StackTrace.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b3/748c0956/Locale.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/72/a7c4f5dc/0200027C.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/a8e296dc7c7b4e92800d9e996ed99e156600/c0/070243ae/02000009.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../FlyerBoll/Assets/Scripts/MVC/Coordinates.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9e/b45c010f/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/b396fc59254d4faa91e092d226373b6340800/eb/47f88fba/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b7/c5fa5ab7/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cafb29d5233847fbb4edcf8d7c32b1e3299c90/8e/cbb6d224/Action.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/c6/18d3fd67/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/f6/086fecc6/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/8a/eebcaa48/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/6d/1f4f3fff/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/a571e14d69cb4b5988aa9b44a32b80071a000/03/9922e725/02000006pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/b396fc59254d4faa91e092d226373b6340800/56/04b96873/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/2a/2ef44206/AttributeUsageAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/36/02b85da6/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FlyerBoll/Assets/Scripts/MVC/Model/FieldModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/5a/0c70c4d4/Resources.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d3a4cbacdae45b384e0e80b376938e13600/e0/e47ef34b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/c7864a0eaeb24b2a999fb177623d54b413a800/c6/7bdf7303/02000241.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/17/2125a508/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.19/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3081d2bcbc4348779c37880b87cdb6a175b000/f4/57ba6135/EditorApplicationLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c7864a0eaeb24b2a999fb177623d54b413a800/6f/f5c41064/ResourcesAPI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b5/97301032/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/00/2b25a62c/ThreadPoolWorkQueue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/c2/623eef89/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/b8/959ae0cf/StringBuilderCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/3081d2bcbc4348779c37880b87cdb6a175b000/94/e2ea9c59/02000705.il" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21vq4TQeImt8lrxhKzl6fhyqhCF" />
   <component name="ProjectLevelVcsManager">
@@ -142,15 +443,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34937125" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.28638497" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diagrams" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -165,10 +468,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18644">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19520">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="18644" />
+      <option name="pid" value="19520" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -196,7 +499,10 @@
       <workItem from="1644169170745" duration="2451000" />
       <workItem from="1644375507329" duration="26958000" />
       <workItem from="1645197889173" duration="37736000" />
-      <workItem from="1645872810013" duration="30729000" />
+      <workItem from="1645872810013" duration="31419000" />
+      <workItem from="1646732299933" duration="1916000" />
+      <workItem from="1647014834575" duration="34388000" />
+      <workItem from="1647720845423" duration="24506000" />
     </task>
     <servers />
   </component>
@@ -295,6 +601,8 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#V2._0.UI.ButtonFlyer" memberName="_button" />
+        <PinnedItemInfo parentTag="Type#V2._0.RayCastManager" memberName="HitInfoObject" />
+        <PinnedItemInfo parentTag="Type#V2._0.ProfilePlayer" memberName="HitTransform" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

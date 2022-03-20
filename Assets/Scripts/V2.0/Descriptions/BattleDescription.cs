@@ -13,13 +13,13 @@ namespace V2._0
 
         // [SerializeField] private FieldDescription _fieldDescription;
         // [SerializeField] private AssetReference _fieldReference;
-        [SerializeField] private SquareDescription _squareDescription;
+        [SerializeField] private ObjectDescription _squareDescription;
                                                                                     //todo один из методов нужно будет убрать
         [SerializeField] private AssetReference _squareReference;
         
 
         // public FieldDescription GetFieldDescription => _fieldDescription;
-        public SquareDescription GetSquareDescription => _squareDescription;
+        public ObjectDescription GetSquareDescription => _squareDescription;
         
         public async Task<GameObject> GetSquareView(IBattelDescriptioner reference)
         {

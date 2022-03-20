@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc658843ecf4303b8c48c29d0649d7e, type: 3}
   m_Name: Button
   m_EditorClassIdentifier: 
+  _buttonsFlyerForSpawn:
+  - {fileID: 967277812536652505, guid: fab5a788cae954541b81702a5c435db6, type: 3}
+  - {fileID: 4329919691798117402, guid: bacdc04ce91bd124fa4478213d645450, type: 3}
+  - {fileID: 654442773664151752, guid: d367156dbece5af43978543026923a6e, type: 3}
+  - {fileID: 3983153237275483726, guid: 1f43c63a7bf88e44da1110c87b1b9343, type: 3}
+  - {fileID: 2634803282028525676, guid: a65915d28241f874d9cb23936e226648, type: 3}
+  - {fileID: 9017405501094053360, guid: 6f21bac555cdeb8488ddb8e32303fdd8, type: 3}
+  - {fileID: 2408807088676816358, guid: 212304db8021ebb488b3b7742eb3f8eb, type: 3}
+  _canvasUIForBattle: {fileID: 4825230984889513326, guid: 61a21777364a2914da28ef58736d3a5e, type: 3}
   buttonsChange:
   - {fileID: 1726723819137431662, guid: 3223650dd5a6bb048862e60553a0ecfb, type: 3}
   - {fileID: 1474115518231236965, guid: b53c844125343b942b05740f24ab2490, type: 3}

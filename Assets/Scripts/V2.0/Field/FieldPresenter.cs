@@ -5,8 +5,8 @@ namespace V2._0
 {
     public class FieldPresenter
     {
-        private List<SquareView> _viewList;
-        private List<SquareModel> _modelList;
+        private readonly List<SquareView> _viewList;
+        private readonly List<SquareModel> _modelList;
 
         public List<SquareModel> Models => _modelList;
         public List<SquareView> Views => _viewList;

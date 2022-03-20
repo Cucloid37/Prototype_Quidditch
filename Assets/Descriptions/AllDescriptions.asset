@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: AllDescriptions
   m_EditorClassIdentifier: 
   flyerDescription: {fileID: 11400000, guid: 6a7f9042a8f9e9042b6a73f0babfd41f, type: 2}
-  SquareDescription: {fileID: 11400000, guid: ebde33a3c8722b942acd1f5b6690fdfa, type: 2}
+  squareDescription: {fileID: 11400000, guid: ebde33a3c8722b942acd1f5b6690fdfa, type: 2}
+  ringDescription: {fileID: 11400000, guid: 4bf3ea96e8e0a7c42b464f959264e08f, type: 2}
   keysData: {fileID: 11400000, guid: 2214cf0d0e630e04fb6087019a42a195, type: 2}
   buttonsConfig: {fileID: 11400000, guid: 6b85bb6fcf93dcb458e0ea9e80032f2a, type: 2}
+  _canvas: {fileID: 3758314629981252474, guid: ba6f742354275394eba995be049e1357, type: 3}

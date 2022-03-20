@@ -21,10 +21,11 @@ namespace V2._0
         public GameObject PrefabSquare => prefabSquare;
 
         //todo вынести в статический класс
-        private const float xMax = 10;
-        private const float yMax = 7;
-        private const float zMax = 16;
+        private const float xMax = 11;
+        private const float yMax = 8;
+        private const float zMax = 17;
         private const int Size = 2;
+        private const int SizeY = 10;
 
         public void InitFactory(GameObject prefab)
         {
@@ -47,10 +48,10 @@ namespace V2._0
                 {
                     for (int z = 0; z < zMax; z++)
                     {
-                        _position.Set(x + Size, y + Size, z + Size);
+                        _position.Set(x + Size, y*10 + Size, z + Size);
                         GameObject _square = CreateWithPosition(prefabSquare, _position);
-                        SquareView view = _square.AddComponent<SquareView>();
-                        _square.name = $"{x}, {y}, {z}";
+                        SquareView view = _square.GetComponentInChildren<BoxCollider>().gameObject.AddComponent<SquareView>();
+                        _square.name = $"{x}, {y}, {z} :: index {_count}";
                         _square.transform.SetParent(parent.transform);
                         view.SetCoordinates(x, y, z);
                         _modelList.Add(new SquareModel(view));

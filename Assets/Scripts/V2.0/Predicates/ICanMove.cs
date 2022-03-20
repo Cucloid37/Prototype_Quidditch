@@ -4,6 +4,6 @@ namespace V2._0.Predicates
     {
         bool IsActiveTeam { get; set; }
         bool IsActiveFlyer { get; set; }
-        bool IsSelectedFlyer { get; set; }
+        SubscriptionProperty<bool> IsSelectedFlyer { get; set; }
     }
 }
