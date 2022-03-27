@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Object;
 
 namespace V2._0
 {
@@ -17,7 +16,7 @@ namespace V2._0
             _positionRings = positions;
             _prefab = prefab;
             goRing = new List<GameObject>(6);
-            rings = new List<GameObject>(6);
+            rings = new List<RingView>(6);
             CreateRing();
         }
 

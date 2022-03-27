@@ -27,3 +27,17 @@ MonoBehaviour:
     typeCar: 1
     speed: 3
     somethingProperty: 13
+  - reference:
+      m_AssetGUID: b1b8e1963cf90c44b9e4086b9c2bb577
+      m_SubObjectName: 
+      m_SubObjectType: 
+    typeCar: 1
+    speed: 3
+    somethingProperty: 13
+  - reference:
+      m_AssetGUID: b1b8e1963cf90c44b9e4086b9c2bb577
+      m_SubObjectName: 
+      m_SubObjectType: 
+    typeCar: 1
+    speed: 3
+    somethingProperty: 13

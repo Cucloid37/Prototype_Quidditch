@@ -67,7 +67,7 @@ namespace V2._0
             var position = target.position;
             position.Set(position.x, position.y + MoveSize, position.z);
             _view.transform.position = position;
-            SetCoor((Coordinates)position);
+            // SetCoor((Coordinates)position);
             _model.SetTransform(position);
         }
 
