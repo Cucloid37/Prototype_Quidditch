@@ -3,7 +3,8 @@ using V2._0.Predicates;
 
 namespace V2._0
 {
-    public class SpawnController : BaseController
+    //todo класс нуждается в рефакторинге
+    public class ControlController : BaseController
     {
         private readonly MoveManager manager;
         private readonly SpawnView _view;
@@ -13,12 +14,11 @@ namespace V2._0
         private readonly Descriptions _descriptions;
         private readonly InputController _input;
         private readonly Transform _canvas;
-
-        public SubscriptionProperty<IFlyer> SelectedFlyer { get; }
+        
         private Transform positionField;
         private int teamIndex = 0;
 
-        public SpawnController(MoveManager manager, MoveController moveController, ProfilePlayer profile, Descriptions descriptions, 
+        public ControlController(MoveManager manager, MoveController moveController, ProfilePlayer profile, Descriptions descriptions, 
             InputController input, Transform canvas, GameObject camera)
         {
             this.manager = manager;
@@ -31,22 +31,10 @@ namespace V2._0
             _view = LoadView();
             _view.Init(SelectFlyer, TransformToLayer, ChangeTeam);
 
-            SelectedFlyer = new SubscriptionProperty<IFlyer>
-            {
-                Value = manager.SelectedFlyer.Value
-            };
-            
-             SelectedFlyer.SubscribeOnChange(SetManager);
-            
             _input.OnClickMouseLeft += SelectTransform;
             _input.OnClickMouseLeft += PutInPosition;
             _input.OnClickButtonBack += CameraDown;
             _input.OnClickButtonForward += CameraUp;
-        }
-
-        private void SetManager(IFlyer flyer)
-        {
-            manager.SelectedFlyer.Value = flyer;
         }
 
         private void CameraDown()
@@ -102,11 +90,11 @@ namespace V2._0
         {
             if (manager.SelectedFlyer.Value != null)
             {
-                _moveController.UnSelectFlyer(manager.SelectedFlyer.Value);
+                // _moveController.UnSelectFlyer(manager.SelectedFlyer.Value);
             }
             
             manager.SelectedFlyer.Value = manager.FlyersDic[buttonIndex + teamIndex];
-            _moveController.SelectFlyer(manager.SelectedFlyer.Value);
+            // _moveController.SelectFlyer(manager.SelectedFlyer.Value);
              
               
             Debug.Log($"Мы изменили игрока! {manager.SelectedFlyer.Value.Type}");
@@ -116,8 +104,8 @@ namespace V2._0
         {
             if (manager.SelectedFlyer.Value != null)
             {
-                if (manager.SelectedFlyer.Value.IsCanMove.IsReady(manager.SelectedFlyer.Value.IsCanMove))
-                {
+                // проверяем ещё, что флайер активный
+                
                     if (positionField != null)
                     {
                         manager.SelectedFlyer.Value.Fly(positionField);     // я что-то упускаю очевидное
@@ -125,7 +113,6 @@ namespace V2._0
 
                     Debug.Log($"{positionField}");
                     return;
-                } 
             }
             
             Debug.Log("PutInPosition // manager.SelectedFlyer.Value == null");
@@ -145,7 +132,7 @@ namespace V2._0
 
             return objView.GetComponent<SpawnView>();
         }
-        
+
         protected override void OnDispose()
         {
             base.OnDispose();

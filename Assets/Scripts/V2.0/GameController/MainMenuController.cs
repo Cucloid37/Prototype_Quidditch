@@ -19,10 +19,10 @@ namespace V2._0
 
         private MainMenuView LoadView(Transform placeForUi)
         {
-            var objectView = Object.Instantiate(ResourceLoader.LoadPrefab(_viewPath), placeForUi, false);
-            AddGameObjects(objectView);
-        
-            return objectView.GetComponent<MainMenuView>();
+            /*var objectView = Object.Instantiate(ResourceLoader.LoadPrefab(_viewPath.PathResource), placeForUi, false);
+            AddGameObjects(objectView);*/
+
+            return UIFactory<MainMenuView>.LoadUI(_viewPath.PathResource); /*objectView.GetComponent<MainMenuView>();*/
         }
 
         private void StartBattle()

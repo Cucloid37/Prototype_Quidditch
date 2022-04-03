@@ -8,7 +8,7 @@ namespace V2._0
         private BattleInitialization _battleInitialization;
         private MainMenuController _mainMenuController;
         private ChangedMenuController _changedMenuController;
-        private SpawnController _spawnController;
+        private ControlController _controlController;
         private UpdateControllers _updateControllers;
         private MoveManager _moveManager;
         private MoveController _moveController;

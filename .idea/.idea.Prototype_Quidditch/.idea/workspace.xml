@@ -5,22 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e262d1a-e259-4ea0-b313-4d0364dc8097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Balls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Balls/CwoffelView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IuiView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IuiView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/MoveUIView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/MoveUIView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Descriptions/Car.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Descriptions/Car.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Flyer Hunter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/Coordinates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Field/Coordinates.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ReactiveValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ReactiveValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ResourceLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/ResourceLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/SubscriptionProperty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Helper/SubscriptionProperty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanIFly.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanIFly.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourceLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourceLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,10 +197,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3836">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="3836" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -223,7 +233,7 @@
       <workItem from="1647014834575" duration="34388000" />
       <workItem from="1647720845423" duration="24506000" />
       <workItem from="1648322565937" duration="797000" />
-      <workItem from="1648389632673" duration="1759000" />
+      <workItem from="1648389632673" duration="15484000" />
     </task>
     <servers />
   </component>
@@ -279,19 +289,6 @@
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs</url>
-          <line>56</line>
-          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\GameController\ChangedMenuController.cs" initialLine="56" containingFunctionPresentation="method 'LoadView'">
-            <startOffsets>
-              <option value="1960" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2031" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuView.cs</url>
           <line>58</line>
           <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\GameController\ChangedMenuView.cs" initialLine="56" containingFunctionPresentation="method 'OnDestroy'">
@@ -318,17 +315,17 @@
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/Ring/RingFactory.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\Ring\RingFactory.cs" initialLine="23" containingFunctionPresentation="method 'CreateRing'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs</url>
+          <line>73</line>
+          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\GameController\BattleInitialization.cs" initialLine="73" containingFunctionPresentation="method 'LoadUI'">
             <startOffsets>
-              <option value="602" />
+              <option value="2556" />
             </startOffsets>
             <endOffsets>
-              <option value="603" />
+              <option value="2631" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="113" />
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

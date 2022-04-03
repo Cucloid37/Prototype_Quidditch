@@ -14,13 +14,13 @@ namespace V2._0
 
         public void SelectFlyer(IFlyer flyer)
         {
-            flyer.IsCanMove.IsSelectedFlyer.Value = true;
+            //flyer.IsCanMove.IsSelectedFlyer.Value = true;
             // flyer.LoadUI() ||  или где-то ещё вызывать метод загрузки характеристик view.LoadUI(IFlyer)
         }
 
         public void UnSelectFlyer(IFlyer flyer)
         {
-            flyer.IsCanMove.IsSelectedFlyer.Value = false;
+            //flyer.IsCanMove.IsSelectedFlyer.Value = false;
         }
     }
 }

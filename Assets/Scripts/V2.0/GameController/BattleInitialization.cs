@@ -1,11 +1,13 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace V2._0
 {
     public class BattleInitialization : BaseController
     {
-        private SpawnController _spawnController;
+        private ControlController _controlController;
         private GameObject factory = new GameObject("Factory");
 
         private const int OneRing = 765;
@@ -43,11 +45,40 @@ namespace V2._0
             var moveManager = new MoveManager(profilePlayer);
             var moveController = new MoveController();
             
-            _spawnController = new SpawnController(moveManager, moveController, profilePlayer, descriptions, input, canvas, camera);
+            var uiController = new UIController(profilePlayer, input, moveManager);
+            
+            _controlController = new ControlController(moveManager, moveController, profilePlayer, descriptions, input, canvas, camera);
+
+            
+            UIFactory<MainMenuView>.LoadUI(PathUI.PathBattle);
+            
 
             controllers.Add(input);
-            AddController(_spawnController);
+            AddController(_controlController);
+            AddController(uiController);
             // controllers.Add(mouseInput);
         }
+    }
+
+    public static class UIFactory<T>
+    {
+        private static Transform _canvas;
+
+        public static void SetCanvas(Transform canvas)
+        {
+            _canvas = canvas;
+        }
+        
+        public static T LoadUI(string path)
+        {
+            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), _canvas);
+            
+            return objView.GetComponent<T>();
+        }
+    }
+
+    public static class PathUI
+    {
+        public const string PathBattle = "Prefabs/UI/UI_InsideBattle";
     }
 }

@@ -19,6 +19,8 @@ namespace V2._0
         
         private void Start()
         {
+            UIFactory<MainMenuView>.SetCanvas(_canvas.transform);
+            
             TestVoid();
             _profile = new ProfilePlayer();
             _controllers = new SubscriptionProperty<UpdateControllers>()

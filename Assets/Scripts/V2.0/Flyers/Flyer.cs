@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using V2._0.Predicates;
 
@@ -9,45 +10,35 @@ namespace V2._0
         protected FlyerModel _model;
         protected FlyerView _view;
 
-        public CanMove IsCanMove { get; private set; }
-        public FlyerType Type { get; }
+       public FlyerType Type { get; }
         public FlyerTeam Team { get; private set; }
         public Coordinates coordinates { get; private set; }
         public FlyerView View => _view;
+        
+        public GameObject icon { get; private set; }
+        public List<IPredicate> allPredicates { get; private set; }
 
         private const float MoveSize = 0.6f;
-        
+
+
+
+        #region Constructor
+
         public Flyer(FlyerModel model, FlyerView view, FlyerType type)
         {
             _model = model;
             _view = view;
             Type = type;
-            
-            IsCanMove = new CanMove();
-            
-            // заглушка
-            IsCanMove.IsActiveTeam = true;
-            IsCanMove.IsActiveFlyer = true;
-            //
-            
-            // IsCanMove.IsSelectedFlyer.SubscribeOnChange(SelectFlyer);
-        }
 
-        private void SelectFlyer(bool desklimate)
-        {
+            allPredicates = new List<IPredicate>();
             
         }
-        
-        public void SetCanMoveTeam(bool target)
-        {
-            IsCanMove.IsActiveTeam = target;
-        }
+        public Flyer() { }
 
-        public void SetSelectedFlyer(bool target)
-        {
-            IsCanMove.IsSelectedFlyer.Value = target;
-        }
-        
+        #endregion
+
+        #region Set/Get
+
         public void SetTeam(FlyerTeam team)
         {
             Team = team;
@@ -58,10 +49,9 @@ namespace V2._0
             coordinates = coor;
         }
 
-        public Flyer() { }
+        #endregion
 
-        
-        
+      
         public virtual void Fly(Transform target)
         {
             var position = target.position;

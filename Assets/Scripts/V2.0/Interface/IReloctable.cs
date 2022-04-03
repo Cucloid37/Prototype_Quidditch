@@ -1,11 +1,13 @@
+using UnityEngine;
+
 namespace V2._0
 {
     public interface IRelocatable
     {
-        ReactiveValue<int> axisY { get; }
-        
-        
+        Coordinates coordinates { get; }
 
+        GameObject icon { get; }
+        
     }
 
     public class AxisY

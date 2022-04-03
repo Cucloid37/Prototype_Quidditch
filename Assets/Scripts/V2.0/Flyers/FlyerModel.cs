@@ -27,14 +27,17 @@ namespace V2._0
         public FlyerType myType { get; private set; }
         public FlyerTeam myTeam { get; private set; }
         
+        public GameObject icon { get; private set; }
+        
         
 
-        public FlyerModel(ActionPoints actionPoints, Force force, Agility agility, MagicForce magicForce)
+        public FlyerModel(ActionPoints actionPoints, Force force, Agility agility, MagicForce magicForce, GameObject icon)
         {
             this.actionPoints = actionPoints;
             this.force = force;
             this.agility = agility;
             this.magicForce = magicForce;
+            this.icon = icon;
         }
 
         #region region public void Get/Set : Broom, MagicWand, FlyerType, FlyerTeam, FlyerView, Name
