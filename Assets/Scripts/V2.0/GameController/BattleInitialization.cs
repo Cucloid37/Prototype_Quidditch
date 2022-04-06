@@ -62,7 +62,7 @@ namespace V2._0
 
     public static class PathUI
     {
-        public const string PathBattle = "Prefabs/UI/UI_InsideBattle";
-        public const string PathFlyerUI = "Prefabs/UI/FlyerUI";
+        public const string PathBattle = "UI/UI_InsideBattle";
+        public const string PathFlyerUI = "UI/FlyerUI";
     }
 }

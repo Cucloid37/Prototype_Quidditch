@@ -8,6 +8,7 @@ namespace V2._0
         public TeamController(Transform canvas)
         {
             _view = UIFactory<FlyerUIView>.LoadUI(PathUI.PathFlyerUI, canvas);
+            AddGameObjects(_view.gameObject);
         }
     }
 }

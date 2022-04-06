@@ -28,7 +28,8 @@ namespace V2._0
             _input = input;
             _canvas = canvas;
             _camera = camera.transform;
-            _view = LoadView();
+            //_view = LoadView();
+            _view = UIFactory<SpawnView>.LoadUI(PathUI.PathBattle, canvas);
             _view.Init(SelectFlyer, TransformToLayer, ChangeTeam);
 
             _input.OnClickMouseLeft += SelectTransform;

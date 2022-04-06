@@ -13,7 +13,7 @@ namespace V2._0
         
         public static T LoadUI(string path, Transform canvas)
         {
-            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), canvas);
+            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), canvas, false);
             
             return objView.GetComponent<T>();
         }
