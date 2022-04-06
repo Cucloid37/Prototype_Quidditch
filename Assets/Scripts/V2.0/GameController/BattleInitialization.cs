@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace V2._0
 {
@@ -44,8 +43,8 @@ namespace V2._0
 
             var moveManager = new MoveManager(profilePlayer);
             var moveController = new MoveController();
-            
-            var uiController = new UIController(profilePlayer, input, moveManager);
+
+            var teamController = new TeamController(canvas);
             
             _controlController = new ControlController(moveManager, moveController, profilePlayer, descriptions, input, canvas, camera);
 
@@ -55,30 +54,15 @@ namespace V2._0
 
             controllers.Add(input);
             AddController(_controlController);
-            AddController(uiController);
-            // controllers.Add(mouseInput);
-        }
-    }
-
-    public static class UIFactory<T>
-    {
-        private static Transform _canvas;
-
-        public static void SetCanvas(Transform canvas)
-        {
-            _canvas = canvas;
-        }
-        
-        public static T LoadUI(string path, Transform canvas)
-        {
-            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), canvas);
+            AddController(teamController);
             
-            return objView.GetComponent<T>();
+            // controllers.Add(mouseInput);
         }
     }
 
     public static class PathUI
     {
         public const string PathBattle = "Prefabs/UI/UI_InsideBattle";
+        public const string PathFlyerUI = "Prefabs/UI/FlyerUI";
     }
 }
