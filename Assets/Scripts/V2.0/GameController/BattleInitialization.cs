@@ -50,7 +50,7 @@ namespace V2._0
             _controlController = new ControlController(moveManager, moveController, profilePlayer, descriptions, input, canvas, camera);
 
             
-            UIFactory<MainMenuView>.LoadUI(PathUI.PathBattle);
+            // UIFactory<MainMenuView>.LoadUI(PathUI.PathBattle, canvas);
             
 
             controllers.Add(input);
@@ -69,9 +69,9 @@ namespace V2._0
             _canvas = canvas;
         }
         
-        public static T LoadUI(string path)
+        public static T LoadUI(string path, Transform canvas)
         {
-            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), _canvas);
+            var objView = Object.Instantiate(ResourceLoader.LoadPrefab(path), canvas);
             
             return objView.GetComponent<T>();
         }

@@ -5,32 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e262d1a-e259-4ea0-b313-4d0364dc8097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IuiView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IuiView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/MoveUIView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/MoveUIView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/UI/UIController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype_Quidditch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/Flyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerDescription.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Flyers/FlyerModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/ChangedMenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/KeysManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Input/KeysManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MainMenuView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/MoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/Starter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IFlyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Interface/IReloctable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanIFly.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanIFly.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Predicates/CanMove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/SpawnController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourceLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/Tools/ResourceLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/V2.0/SpawnController/ControlController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +213,7 @@
       <workItem from="1647014834575" duration="34388000" />
       <workItem from="1647720845423" duration="24506000" />
       <workItem from="1648322565937" duration="797000" />
-      <workItem from="1648389632673" duration="15484000" />
+      <workItem from="1648389632673" duration="17138000" />
     </task>
     <servers />
   </component>
@@ -313,19 +293,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/V2.0/GameController/BattleInitialization.cs</url>
-          <line>73</line>
-          <properties documentPath="C:\Users\Велимир Хлебников\Desktop\ReposUnity\Prototype_Quidditch\Assets\Scripts\V2.0\GameController\BattleInitialization.cs" initialLine="73" containingFunctionPresentation="method 'LoadUI'">
-            <startOffsets>
-              <option value="2556" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2631" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

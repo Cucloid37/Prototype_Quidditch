@@ -30,8 +30,6 @@ namespace V2._0
             {
                 Value = new RayCastManager()
             };
-
-            RayCast.Value.SetHitInfo();
         }
     }
 

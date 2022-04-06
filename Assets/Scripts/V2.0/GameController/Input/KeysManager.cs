@@ -19,13 +19,17 @@ namespace V2._0
         {
             if (Input.GetKeyDown(_inputKeysData.Right)) action?.Invoke();
         }
-
-        public void GetKeyLeft(InputKeysData _inputKeysData, Action action)
+        
+        
+        public void GetMouseRight(Action action)
         {
-            if (Input.GetKeyDown(_inputKeysData.Left)) action?.Invoke();
+            if (Input.GetMouseButtonDown(1))
+            {
+                action?.Invoke();
+            }
         }
 
-        public void GetMouseRight(Action action)
+        public void GetMouseLeft(Action action)
         {
             if (Input.GetMouseButtonDown(0))
             {

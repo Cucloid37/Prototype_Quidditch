@@ -15,6 +15,7 @@ namespace V2._0
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
             _view.Init(StartBattle);
+            AddGameObjects(_view.gameObject);
         }
 
         private MainMenuView LoadView(Transform placeForUi)
@@ -22,7 +23,7 @@ namespace V2._0
             /*var objectView = Object.Instantiate(ResourceLoader.LoadPrefab(_viewPath.PathResource), placeForUi, false);
             AddGameObjects(objectView);*/
 
-            return UIFactory<MainMenuView>.LoadUI(_viewPath.PathResource); /*objectView.GetComponent<MainMenuView>();*/
+            return UIFactory<MainMenuView>.LoadUI(_viewPath.PathResource, placeForUi); /*objectView.GetComponent<MainMenuView>();*/
         }
 
         private void StartBattle()

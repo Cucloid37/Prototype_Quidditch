@@ -9,7 +9,7 @@ namespace V2._0
         public event Action OnClickButtonForward;
         public event Action OnClickButtonBack;
         public event Action OnClickButtonRight;
-        public event Action OnClickButtonLeft;
+        public event Action OnClickMouseRight;
 
         public event Action OnClickMouseLeft;
 
@@ -29,8 +29,8 @@ namespace V2._0
             _inputKeys.GetKeyForward(_inputKeysData, OnClickButtonForward);
             _inputKeys.GetKeyBack(_inputKeysData, OnClickButtonBack);
             _inputKeys.GetKeyRight(_inputKeysData, OnClickButtonRight);
-            _inputKeys.GetKeyLeft(_inputKeysData, OnClickButtonLeft);
-            _inputKeys.GetMouseRight(OnClickMouseLeft);
+            _inputKeys.GetMouseRight(OnClickMouseRight);
+            _inputKeys.GetMouseLeft(OnClickMouseLeft);
         }
         
     }

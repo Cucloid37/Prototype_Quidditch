@@ -33,10 +33,16 @@ namespace V2._0
 
             _input.OnClickMouseLeft += SelectTransform;
             _input.OnClickMouseLeft += PutInPosition;
+            _input.OnClickMouseRight += RightMouseInput;
             _input.OnClickButtonBack += CameraDown;
             _input.OnClickButtonForward += CameraUp;
         }
 
+        private void RightMouseInput()
+        {
+            Debug.LogWarning("RightMouseInput");
+        }
+        
         private void CameraDown()
         {
             if(_camera.position.y < 14)
@@ -53,7 +59,6 @@ namespace V2._0
             var position = _camera.position;
             position.Set(position.x, position.y+10, position.z);
             _camera.position = position;
-            Debug.LogWarning($"{_camera.position.y}");
         }
 
         private void TransformToLayer(int index)
@@ -71,16 +76,16 @@ namespace V2._0
         
          public void SelectTransform()
          {
-             var x = _profile.RayCast.Value.RayCastReturn();
-             if (x == null)
+             var rayCast = _profile.RayCast.Value.RayCastReturn();
+             if (rayCast == null)
              {
                  Debug.Log($"RayCast == null");
                  return;
              }
-             if (x.transform.GetComponent<SquareView>())
+             if (rayCast.transform.GetComponent<SquareView>())
              {
-                 positionField = x.transform;
-                 Debug.LogWarning($"Мы изменили трансформ перемещения {x}");
+                 positionField = rayCast.transform;
+                 Debug.LogWarning($"Мы изменили трансформ перемещения {rayCast}");
              }
              
              Debug.LogError($"Мы ничего не меняли");
@@ -138,6 +143,7 @@ namespace V2._0
             base.OnDispose();
             _input.OnClickMouseLeft -= SelectTransform;
             _input.OnClickMouseLeft -= PutInPosition;
+            _input.OnClickMouseRight -= RightMouseInput;
             _input.OnClickButtonBack -= CameraDown;
             _input.OnClickButtonForward -= CameraUp;
         }
