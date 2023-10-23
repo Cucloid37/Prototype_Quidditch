@@ -7,6 +7,8 @@ using UnityEngine.AddressableAssets;
 
 namespace V2._0
 {
+
+    //todo выделить типы и энамы в отдельный скрипт
     public enum FlyerType
     {
         Hunter,

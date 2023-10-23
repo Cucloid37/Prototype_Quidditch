@@ -14,7 +14,8 @@ namespace V2._0
         private readonly Descriptions _descriptions;
         private readonly InputController _input;
         private readonly Transform _canvas;
-        
+
+        private GameObject rayCast;
         private Transform positionField;
         private int teamIndex = 0;
 
@@ -77,7 +78,8 @@ namespace V2._0
         
          public void SelectTransform()
          {
-             var rayCast = _profile.RayCast.Value.RayCastReturn();
+             rayCast = _profile.RayCast.Value.RayCastReturn();
+
              if (rayCast == null)
              {
                  Debug.Log($"RayCast == null");
@@ -86,10 +88,9 @@ namespace V2._0
              if (rayCast.transform.GetComponent<SquareView>())
              {
                  positionField = rayCast.transform;
-                 Debug.LogWarning($"Мы изменили трансформ перемещения {rayCast}");
+                 Debug.LogWarning($"Мы выбрали объект {rayCast.GetHashCode()}");
              }
-             
-             Debug.LogError($"Мы ничего не меняли");
+     
          }
          
          public void SelectFlyer(int buttonIndex)

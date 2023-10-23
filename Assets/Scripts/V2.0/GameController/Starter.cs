@@ -14,14 +14,12 @@ namespace V2._0
         private FlyersInitialization _loadReference;
         private MainController _mainController;
 
-        private int TestCount;
         [SerializeField] private CarDescription _carDescription;
         
         private void Start()
         {
             UIFactory<MainMenuView>.SetCanvas(_canvas.transform);
-            
-            TestVoid();
+           
             _profile = new ProfilePlayer();
             _controllers = new SubscriptionProperty<UpdateControllers>()
             {
@@ -31,27 +29,6 @@ namespace V2._0
             _mainController = new MainController(_profile, _descriptions, _controllers.Value, _canvas, _mainCamera);
             _controllers.Value.Initialization();
         
-        }
-
-        public void TestVoid()
-        {
-
-            var x = new ReactiveValue<int>()
-            {
-                CurrentValue = 3
-            };
-
-            x.OnChange += TestInt;
-
-            x.CurrentValue = 5;
-            x.CurrentValue = 3;
-            x.CurrentValue = 3;
-            x.CurrentValue = 6;
-        }
-
-        public void TestInt(int x)
-        {
-            Debug.Log($"{TestCount += x}");
         }
 
         private void Update()
